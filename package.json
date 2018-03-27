@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./"
+    "build": "parcel build index.html --public-url ./ --detailed-report"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,8 @@
     "preact": "^8.2.7",
     "preact-emotion": "^9.1.0",
     "prop-types": "^15.6.1"
+  },
+  "devDependencies": {
+    "parcel-plugin-bundle-visualiser": "^1.0.2"
   }
 }
