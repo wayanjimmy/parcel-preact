@@ -1,0 +1,20 @@
+{
+  "name": "mainparcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "emotion": "^9.1.0",
+    "parcel-bundler": "^1.6.2",
+    "preact": "^8.2.7",
+    "preact-emotion": "^9.1.0",
+    "prop-types": "^15.6.1"
+  }
+}
